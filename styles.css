@@ -29,8 +29,8 @@ section{
 
 /*background*/
 body {
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+  background: rgb(119,131,208);
+  background: linear-gradient(90deg, rgba(119,131,208,1) 0%, rgba(11,5,133,1) 100%);
 
 }
 
@@ -222,3 +222,9 @@ button:hover {
   background-color: rgb(179, 170, 170);
 }
 
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
