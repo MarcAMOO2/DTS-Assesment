@@ -228,3 +228,30 @@ a {
   text-decoration: none;
   color: black;
 }
+
+li {
+  text-align: initial;
+}
+
+.anaylsis {
+  margin-top: 200px;
+  text-shadow: 2px 2px black;
+}
+.anaylsis2 {
+  text-shadow: 2px 2px black;
+}
+
+img {
+  margin-top: 50px;
+  border: 2px black solid;
+  box-shadow: 2px 2px black;
+  margin-bottom: 50px;
+}
+h2 {
+  text-shadow: 2px 2px black;
+
+}
+.undertext {
+  font-size: 14px;
+  text-shadow: 2px 2px black;
+}

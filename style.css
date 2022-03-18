@@ -1,4 +1,96 @@
-body {
-    text-align: center;
+
+* {
     font-family: arial;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    
 }
+
+/*Remove the Scrollbar*/
+::-webkit-scrollbar
+{
+  width: 0px;
+  background-color: black;
+}
+
+body {
+    background: rgb(153,0,255);
+background: linear-gradient(90deg, rgba(153,0,255,1) 0%, rgba(255,0,0,1) 50%, rgba(241,255,0,1) 100%);
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+p {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+ul {
+  margin-left: 600px;
+  margin-right: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    border: 2px black solid;
+    
+}
+li {
+    text-align: left;
+    color: white
+}
+
+
+
+/*Button Stuff*/
+
+button {
+    text-align: center;
+    border: black 2px solid;
+    padding: 15px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+    font-weight: 500;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    margin-left: 20px;  
+    margin-bottom: 20px;
+    
+  }
+
+
+  .currentpage:hover {
+    cursor: not-allowed;
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: headShake; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+    background-color: red;
+  }
+  
+  .allowed:hover {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: rubberBand;
+    animation-duration: 1s;
+    animation-delay: 0.1;
+  }
+  
+  button:hover {
+    background-color: rgb(179, 170, 170);
+  }
+  
+  
+  h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
