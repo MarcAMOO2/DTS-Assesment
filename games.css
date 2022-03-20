@@ -99,5 +99,19 @@ button {
   font-size: 20px;
 }
 .title {
-  font-size: 50px;
+  font-size: 80px;
+  margin-bottom: 99px;
+  display: inline-block;
+  
+  
+    animation: bounceInDown;
+    animation-duration: 1s;
+    animation-delay: 0.1;
+}
+
+.everythingelse {
+  display: inline-block;
+  animation: fadeInRight;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
 }
