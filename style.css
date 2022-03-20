@@ -14,8 +14,8 @@
 }
 
 body {
-    background: rgb(153,0,255);
-background: linear-gradient(90deg, rgba(153,0,255,1) 0%, rgba(255,0,0,1) 50%, rgba(241,255,0,1) 100%);
+  background: rgb(14,186,207);
+  background: linear-gradient(90deg, rgba(14,186,207,1) 0%, rgba(9,9,128,1) 100%);
 }
 
 h1 {
@@ -94,3 +94,10 @@ button {
     color: white;
   }
   
+
+.define {
+  font-size: 20px;
+}
+.title {
+  font-size: 50px;
+}
